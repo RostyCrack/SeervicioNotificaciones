@@ -10,9 +10,8 @@ import org.springframework.web.reactive.function.client.WebClient;
 public class Resquest {
 
     public void sendRequest() throws FirebaseMessagingException {
-        log.info("Sending request...");
         // This registration token comes from the client FCM SDKs.
-        String registrationToken = "YOUR_REGISTRATION_TOKEN";
+        String registrationToken = "eOHY_rpoSPOxSEhM3FvZKl:APA91bF4gjsZBamtMEKT1Tc8IeGWoroFyC07Mm3SVzjiCi00C_PcuhhQQofh5w75kb3TtKf8YLCE9VWFjMEs1qt_fPlEnyZ4F-gjPde_mOHzrz68pHbW9eskbvnIl4I7EdL3mTfJSNoO";
 
 // See documentation on defining a message payload.
         Message message = Message.builder()
